@@ -1,14 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import '../src/assets/styles/App.css';
 
 function App() {
   return (
     <div className="App">
-
-      <AppSegundoMensaje />
-
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Lo que siento cuando veo a danna:
         </p>
@@ -21,15 +16,6 @@ function App() {
           Me cae del culo
         </a>
       </header>
-    </div>
-  );
-}
-
-function AppSegundoMensaje() {
-  return (
-    <div className="App-mensaje">
-      <h2>Hola sapa fea metida</h2>
-      <p>Una de aqui no esta soportando nada</p>
     </div>
   );
 }
